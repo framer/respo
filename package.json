@@ -1,0 +1,22 @@
+{
+  "name": "respo",
+  "version": "1.0.2",
+  "author": {
+    "name": "Koen Bok"
+  },
+  "main": "dist/index.js",
+  "license": "MIT",
+  "dependencies": {
+    "resize-observer": "^1.0.0",
+    "resize-observer-polyfill": "^1.5.1"
+  },
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "devDependencies": {
+    "@types/react": "^16.8.4",
+    "react": "^16.8.3",
+    "typescript": "^3.3.3"
+  }
+}
